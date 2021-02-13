@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct ReaderDemoApp: App {
+struct RSSealApp: App {
+    let motionManager = MotionManager()
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MasterView()
+                .environmentObject(motionManager)
         }
     }
 }

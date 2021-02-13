@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25271DF25D6680C007E6741 /* RSSJsonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25271DE25D6680C007E6741 /* RSSJsonContent.swift */; };
+		D25271E525D67A47007E6741 /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25271E425D67A47007E6741 /* FeedItemView.swift */; };
+		D25271EB25D67DE9007E6741 /* FeedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25271EA25D67DE9007E6741 /* FeedDetailView.swift */; };
+		D25271FA25D6B7DD007E6741 /* DarkModeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25271F925D6B7DD007E6741 /* DarkModeSettingView.swift */; };
 		D27236AF25C90E92008086D1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27236AE25C90E92008086D1 /* Tests_iOS.swift */; };
 		D27236BA25C90E92008086D1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27236B925C90E92008086D1 /* Tests_macOS.swift */; };
-		D27236BC25C90E92008086D1 /* ReaderDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369325C90E90008086D1 /* ReaderDemoApp.swift */; };
-		D27236BD25C90E92008086D1 /* ReaderDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369325C90E90008086D1 /* ReaderDemoApp.swift */; };
-		D27236BE25C90E92008086D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369425C90E90008086D1 /* ContentView.swift */; };
-		D27236BF25C90E92008086D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369425C90E90008086D1 /* ContentView.swift */; };
+		D27236BC25C90E92008086D1 /* RSSealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369325C90E90008086D1 /* RSSealApp.swift */; };
+		D27236BD25C90E92008086D1 /* RSSealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369325C90E90008086D1 /* RSSealApp.swift */; };
+		D27236BE25C90E92008086D1 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369425C90E90008086D1 /* MasterView.swift */; };
+		D27236BF25C90E92008086D1 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D272369425C90E90008086D1 /* MasterView.swift */; };
 		D27236C025C90E92008086D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D272369525C90E92008086D1 /* Assets.xcassets */; };
 		D27236C125C90E92008086D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D272369525C90E92008086D1 /* Assets.xcassets */; };
+		D27236D625C9114E008086D1 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27236D525C9114E008086D1 /* FeedItem.swift */; };
+		D2CBF0DA25D77E1E00BEEE7E /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBF0D925D77E1E00BEEE7E /* Vibration.swift */; };
+		D2CBF0DB25D77E1E00BEEE7E /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBF0D925D77E1E00BEEE7E /* Vibration.swift */; };
+		D2CBF0ED25D7E1D500BEEE7E /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBF0EC25D7E1D500BEEE7E /* MotionManager.swift */; };
+		D2CBF0EE25D7E1D500BEEE7E /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBF0EC25D7E1D500BEEE7E /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D272369325C90E90008086D1 /* ReaderDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderDemoApp.swift; sourceTree = "<group>"; };
-		D272369425C90E90008086D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D25271DE25D6680C007E6741 /* RSSJsonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSJsonContent.swift; sourceTree = "<group>"; };
+		D25271E425D67A47007E6741 /* FeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
+		D25271EA25D67DE9007E6741 /* FeedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailView.swift; sourceTree = "<group>"; };
+		D25271F925D6B7DD007E6741 /* DarkModeSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSettingView.swift; sourceTree = "<group>"; };
+		D272369325C90E90008086D1 /* RSSealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSealApp.swift; sourceTree = "<group>"; };
+		D272369425C90E90008086D1 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		D272369525C90E92008086D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D272369A25C90E92008086D1 /* ReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D272369A25C90E92008086D1 /* RSSeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D272369D25C90E92008086D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D27236A225C90E92008086D1 /* ReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27236A225C90E92008086D1 /* RSSeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27236A425C90E92008086D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27236A525C90E92008086D1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D27236AA25C90E92008086D1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +62,9 @@
 		D27236B525C90E92008086D1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27236B925C90E92008086D1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D27236BB25C90E92008086D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27236D525C9114E008086D1 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		D2CBF0D925D77E1E00BEEE7E /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		D2CBF0EC25D7E1D500BEEE7E /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D25271F425D68268007E6741 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D272369425C90E90008086D1 /* MasterView.swift */,
+				D25271E425D67A47007E6741 /* FeedItemView.swift */,
+				D25271EA25D67DE9007E6741 /* FeedDetailView.swift */,
+				D25271F925D6B7DD007E6741 /* DarkModeSettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D272368D25C90E90008086D1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +125,10 @@
 		D272369225C90E90008086D1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D272369325C90E90008086D1 /* ReaderDemoApp.swift */,
-				D272369425C90E90008086D1 /* ContentView.swift */,
+				D2CBF0F725D7E32400BEEE7E /* Others */,
+				D25271F425D68268007E6741 /* View */,
+				D27236D425C91126008086D1 /* Data */,
+				D272369325C90E90008086D1 /* RSSealApp.swift */,
 				D272369525C90E92008086D1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -108,8 +137,8 @@
 		D272369B25C90E92008086D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D272369A25C90E92008086D1 /* ReaderDemo.app */,
-				D27236A225C90E92008086D1 /* ReaderDemo.app */,
+				D272369A25C90E92008086D1 /* RSSeal.app */,
+				D27236A225C90E92008086D1 /* RSSeal.app */,
 				D27236AA25C90E92008086D1 /* Tests iOS.xctest */,
 				D27236B525C90E92008086D1 /* Tests macOS.xctest */,
 			);
@@ -151,12 +180,30 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		D27236D425C91126008086D1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D27236D525C9114E008086D1 /* FeedItem.swift */,
+				D25271DE25D6680C007E6741 /* RSSJsonContent.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D2CBF0F725D7E32400BEEE7E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBF0D925D77E1E00BEEE7E /* Vibration.swift */,
+				D2CBF0EC25D7E1D500BEEE7E /* MotionManager.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D272369925C90E92008086D1 /* ReaderDemo (iOS) */ = {
+		D272369925C90E92008086D1 /* RSSeal (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D27236C425C90E92008086D1 /* Build configuration list for PBXNativeTarget "ReaderDemo (iOS)" */;
+			buildConfigurationList = D27236C425C90E92008086D1 /* Build configuration list for PBXNativeTarget "RSSeal (iOS)" */;
 			buildPhases = (
 				D272369625C90E92008086D1 /* Sources */,
 				D272369725C90E92008086D1 /* Frameworks */,
@@ -166,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReaderDemo (iOS)";
+			name = "RSSeal (iOS)";
 			productName = "ReaderDemo (iOS)";
-			productReference = D272369A25C90E92008086D1 /* ReaderDemo.app */;
+			productReference = D272369A25C90E92008086D1 /* RSSeal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D27236A125C90E92008086D1 /* ReaderDemo (macOS) */ = {
+		D27236A125C90E92008086D1 /* RSSeal (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D27236C725C90E92008086D1 /* Build configuration list for PBXNativeTarget "ReaderDemo (macOS)" */;
+			buildConfigurationList = D27236C725C90E92008086D1 /* Build configuration list for PBXNativeTarget "RSSeal (macOS)" */;
 			buildPhases = (
 				D272369E25C90E92008086D1 /* Sources */,
 				D272369F25C90E92008086D1 /* Frameworks */,
@@ -183,9 +230,9 @@
 			);
 			dependencies = (
 			);
-			name = "ReaderDemo (macOS)";
+			name = "RSSeal (macOS)";
 			productName = "ReaderDemo (macOS)";
-			productReference = D27236A225C90E92008086D1 /* ReaderDemo.app */;
+			productReference = D27236A225C90E92008086D1 /* RSSeal.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D27236A925C90E92008086D1 /* Tests iOS */ = {
@@ -249,7 +296,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D272369125C90E90008086D1 /* Build configuration list for PBXProject "ReaderDemo" */;
+			buildConfigurationList = D272369125C90E90008086D1 /* Build configuration list for PBXProject "RSSeal" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +309,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D272369925C90E92008086D1 /* ReaderDemo (iOS) */,
-				D27236A125C90E92008086D1 /* ReaderDemo (macOS) */,
+				D272369925C90E92008086D1 /* RSSeal (iOS) */,
+				D27236A125C90E92008086D1 /* RSSeal (macOS) */,
 				D27236A925C90E92008086D1 /* Tests iOS */,
 				D27236B425C90E92008086D1 /* Tests macOS */,
 			);
@@ -308,8 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27236BE25C90E92008086D1 /* ContentView.swift in Sources */,
-				D27236BC25C90E92008086D1 /* ReaderDemoApp.swift in Sources */,
+				D2CBF0DA25D77E1E00BEEE7E /* Vibration.swift in Sources */,
+				D25271E525D67A47007E6741 /* FeedItemView.swift in Sources */,
+				D25271DF25D6680C007E6741 /* RSSJsonContent.swift in Sources */,
+				D27236BE25C90E92008086D1 /* MasterView.swift in Sources */,
+				D2CBF0ED25D7E1D500BEEE7E /* MotionManager.swift in Sources */,
+				D25271FA25D6B7DD007E6741 /* DarkModeSettingView.swift in Sources */,
+				D27236BC25C90E92008086D1 /* RSSealApp.swift in Sources */,
+				D27236D625C9114E008086D1 /* FeedItem.swift in Sources */,
+				D25271EB25D67DE9007E6741 /* FeedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +371,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27236BF25C90E92008086D1 /* ContentView.swift in Sources */,
-				D27236BD25C90E92008086D1 /* ReaderDemoApp.swift in Sources */,
+				D2CBF0DB25D77E1E00BEEE7E /* Vibration.swift in Sources */,
+				D27236BF25C90E92008086D1 /* MasterView.swift in Sources */,
+				D27236BD25C90E92008086D1 /* RSSealApp.swift in Sources */,
+				D2CBF0EE25D7E1D500BEEE7E /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,12 +399,12 @@
 /* Begin PBXTargetDependency section */
 		D27236AC25C90E92008086D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D272369925C90E92008086D1 /* ReaderDemo (iOS) */;
+			target = D272369925C90E92008086D1 /* RSSeal (iOS) */;
 			targetProxy = D27236AB25C90E92008086D1 /* PBXContainerItemProxy */;
 		};
 		D27236B725C90E92008086D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D27236A125C90E92008086D1 /* ReaderDemo (macOS) */;
+			target = D27236A125C90E92008086D1 /* RSSeal (macOS) */;
 			targetProxy = D27236B625C90E92008086D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,8 +535,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.ReaderDemo;
-				PRODUCT_NAME = ReaderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.RSSeal;
+				PRODUCT_NAME = RSSeal;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,8 +557,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.ReaderDemo;
-				PRODUCT_NAME = ReaderDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.RSSeal;
+				PRODUCT_NAME = RSSeal;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +584,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.ReaderDemo;
-				PRODUCT_NAME = ReaderDemo;
+				PRODUCT_NAME = RSSeal;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -552,7 +608,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.hatcloud.ReaderDemo;
-				PRODUCT_NAME = ReaderDemo;
+				PRODUCT_NAME = RSSeal;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -650,7 +706,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D272369125C90E90008086D1 /* Build configuration list for PBXProject "ReaderDemo" */ = {
+		D272369125C90E90008086D1 /* Build configuration list for PBXProject "RSSeal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D27236C225C90E92008086D1 /* Debug */,
@@ -659,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27236C425C90E92008086D1 /* Build configuration list for PBXNativeTarget "ReaderDemo (iOS)" */ = {
+		D27236C425C90E92008086D1 /* Build configuration list for PBXNativeTarget "RSSeal (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D27236C525C90E92008086D1 /* Debug */,
@@ -668,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27236C725C90E92008086D1 /* Build configuration list for PBXNativeTarget "ReaderDemo (macOS)" */ = {
+		D27236C725C90E92008086D1 /* Build configuration list for PBXNativeTarget "RSSeal (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D27236C825C90E92008086D1 /* Debug */,
